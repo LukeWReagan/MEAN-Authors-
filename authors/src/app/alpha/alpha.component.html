@@ -1,0 +1,18 @@
+<h3>The pets are looking for a home!</h3>
+<button [routerLink]="['/gamma']">Add a pet to the shelter</button>
+<div *ngFor='let task of tasks'>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Actions</th>
+      </tr>
+      <tr>
+        <td>{{task.name}}</td>
+        <td>{{task.type}}</td>
+        <td><button [routerLink]="['/beta']" (click)="dataToService(task._id)">Details</button></td>
+        <td> <button [routerLink]="['/delta']"  (click)="dataToService(task._id)"> Edit</button> </td>
+      </tr>
+        </table>
+    
+</div>

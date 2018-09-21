@@ -1,0 +1,15 @@
+<h1>Details about {{CakeWithReviews.name}}</h1>
+<table>
+        <tr>
+          <th>Pet Type</th>
+          <th>Description</th>
+          <th>Skills</th>
+        </tr>
+        <tr>
+          <td>{{CakeWithReviews.type}}</td>
+          <td>{{CakeWithReviews.description}}</td>
+          <td>{{CakeWithReviews.skill}}</td>
+          
+        </tr>
+          </table>
+          <button (click)="onDelete(CakeWithReviews._id)">delete</button>

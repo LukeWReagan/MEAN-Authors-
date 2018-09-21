@@ -1,0 +1,24 @@
+<h1>Know of a pet needing a home?</h1>
+
+
+        <form (submit)="onSubmit()">
+                <p> {{ obj | json }} </p>
+          Pet Name:<input type="text" required minlength="3" name="newPet.name" [(ngModel)]="newPet.name" #name="ngModel"/>
+          <div id="error" *ngIf="!name.valid">Name required</div>
+          <div id="error" *ngIf="!name.valid">Must be at least 3 characters</div>
+          <br>
+          Pet type:<input type="text" required minlength="3" name="newPet.type" [(ngModel)]="newPet.type" #type="ngModel"/>
+          <div id="error" *ngIf="!type.valid">Name required</div>
+          <div id="error" *ngIf="!type.valid">Must be at least 3 characters</div>
+          <br>
+          Description:<input type="text" required minlength="3" name="newPet.description" [(ngModel)]="newPet.description" #description="ngModel"/>
+          <div id="error" *ngIf="!description.valid">Name required</div>
+          <div id="error" *ngIf="!description.valid">Must be at least 3 characters</div>
+          <br>
+          Skills :<input type="text" required minlength="3" name="newPet.skill" [(ngModel)]="newPet.skill" #skill="ngModel"/>
+          <div id="error" *ngIf="!skill.valid">Name required</div>
+          <div id="error" *ngIf="!skill.valid">Must be at least 3 characters</div>
+          <br>
+          <input type="submit" [disabled]="!name.valid" value="Add pet" />
+      </form>
+      <button [routerLink]="['/alpha']">Cancel</button>

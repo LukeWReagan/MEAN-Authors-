@@ -1,0 +1,16 @@
+<h1>Edit this pet</h1>
+<form (submit)="onSubmitUpdate(task._id, task)">
+  <p>Pet name:</p><input type="text" name="obj.name" [(ngModel)]="obj.name" />
+  
+  <br>
+  <p>Pet type:</p><input type="text" [(ngModel)]="obj.type"  />
+  
+  <br>
+  <p>Description:</p><input type="text" name="obj.description" [(ngModel)]="obj.description" /> 
+  
+  <p>Skills:</p><input type="text"   name="obj.skill" ([ngModel])="obj.skill" />
+  
+  <br>
+  <input type="submit" value="update">
+</form>
+<button [routerLink]="['/alpha']">Cancel</button>
