@@ -1,11 +1,23 @@
-
-<button [routerLink]="['/alpha']">Home</button>
-<button [routerLink]="['/beta']">Details</button>
-<button [routerLink]="['/gamma']">Add a Pet</button>
-<button [routerLink]="['/delta']">Edit Pet</button>
-
-<h1>Pet Shelter</h1>
-
-
-
-<router-outlet></router-outlet>
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="topBox">
+            <div id="routes">
+                <img class="logo" src="assets/images/carpetCleaner.png">
+                <!-- <div id="link"> -->
+                <a [routerLink]="['/alpha']" class="home">Home</a>
+                <a class="services" [routerLink]="['/gamma']">Services</a>
+                <a class="about" [routerLink]="['/beta']">About Mr.Clean</a>
+                <a class="contact" [routerLink]="['/delta']">Contact Us</a>
+                
+                <h3 class="num">208-215-0449</h3>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+        <div id="bottomBox">
+            <h1>Mr.Clean LLC</h1>
+        </div>
+    </body>
+</html>

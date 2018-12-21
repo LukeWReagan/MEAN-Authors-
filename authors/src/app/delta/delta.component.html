@@ -1,16 +1,12 @@
-<h1>Edit this pet</h1>
-<form (submit)="onSubmitUpdate(task._id, task)">
-  <p>Pet name:</p><input type="text" name="obj.name" [(ngModel)]="obj.name" />
-  
-  <br>
-  <p>Pet type:</p><input type="text" [(ngModel)]="obj.type"  />
-  
-  <br>
-  <p>Description:</p><input type="text" name="obj.description" [(ngModel)]="obj.description" /> 
-  
-  <p>Skills:</p><input type="text"   name="obj.skill" ([ngModel])="obj.skill" />
-  
-  <br>
-  <input type="submit" value="update">
-</form>
-<button [routerLink]="['/alpha']">Cancel</button>
+<div id="container">
+  <h1 class="cInfo">Contact Information</h1>
+  <img id="side" src="assets/images/side.jpg">
+  <div id="icons">
+    <img class="lPic" src="assets/images/location.png">
+    <img class="cPic" src="assets/images/contact.png">
+    <img class="tPic" src="assets/images/clock.png">
+    <h3 class="address">2791 East Llama Lane<br>Boise, Idaho 98144</h3>
+    <h3 class="number">(208) 215-0449<br>JamesHunt@gmail.com</h3>
+    <h3 class="hours">Monday-Sunday<br> 8AM-8PM </h3>
+  </div>
+</div>

@@ -1,0 +1,98 @@
+.cInfo{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+}
+.cPic{
+    width: 150px;
+    height: 100px;
+}
+.lPic{
+    width: 150px;
+    height: 100px; 
+}
+.tPic{
+    width: 150px;
+    height: 100px;
+    margin-left: 130px;
+}
+#contact{
+   text-align: center;
+   height: 900px;
+   width: 100%;
+}
+h3{
+    margin-left: 70px;
+}
+#info{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.address{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+#icons{
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    margin-top: 90px;
+}
+img{
+    margin-left: 100px;
+}
+.hours{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+.number{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+#add{
+    display:inline-block;
+    margin-top: 10px;
+    text-align: center;
+    width: 870px;
+}
+#num{
+    display: inline-block;
+    text-align: center;
+    margin-left: 160px;
+
+}
+#side{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    display: inline-block;
+    height: 350px;
+    width: 400px;
+    border-radius: 25px;
+}
+#h{
+    display: inline-block;
+    margin-top: 30px;
+}
+#container{
+    height: 650px;
+    width: 100%;
+}

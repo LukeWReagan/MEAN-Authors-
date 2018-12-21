@@ -1,24 +1,45 @@
-<h1>Know of a pet needing a home?</h1>
-
-
-        <form (submit)="onSubmit()">
-                <p> {{ obj | json }} </p>
-          Pet Name:<input type="text" required minlength="3" name="newPet.name" [(ngModel)]="newPet.name" #name="ngModel"/>
-          <div id="error" *ngIf="!name.valid">Name required</div>
-          <div id="error" *ngIf="!name.valid">Must be at least 3 characters</div>
-          <br>
-          Pet type:<input type="text" required minlength="3" name="newPet.type" [(ngModel)]="newPet.type" #type="ngModel"/>
-          <div id="error" *ngIf="!type.valid">Name required</div>
-          <div id="error" *ngIf="!type.valid">Must be at least 3 characters</div>
-          <br>
-          Description:<input type="text" required minlength="3" name="newPet.description" [(ngModel)]="newPet.description" #description="ngModel"/>
-          <div id="error" *ngIf="!description.valid">Name required</div>
-          <div id="error" *ngIf="!description.valid">Must be at least 3 characters</div>
-          <br>
-          Skills :<input type="text" required minlength="3" name="newPet.skill" [(ngModel)]="newPet.skill" #skill="ngModel"/>
-          <div id="error" *ngIf="!skill.valid">Name required</div>
-          <div id="error" *ngIf="!skill.valid">Must be at least 3 characters</div>
-          <br>
-          <input type="submit" [disabled]="!name.valid" value="Add pet" />
-      </form>
-      <button [routerLink]="['/alpha']">Cancel</button>
+<div id= "container">
+        <h1 class="residential">Residential Carpet Cleaning</h1>
+        <div class="resImg5">
+          <img class="resImg" src="assets/images/mrClean.jpg">
+        </div>
+        <div class="resImg4">
+          <h3 class="product1">
+            When it comes to the comfort of your home, nothing feels as luxurious as warm carpeting under your feet. While they add a lot of beauty and pleasure to your home, all that walking, jumping and rolling around can take its toll on your carpets. Make sure they continue looking and feeling great with regular and thorough cleaning from the experts at Mr.Clean. We’ll help extend the life of your carpet and protect your investment. All for the low price of $70/hour.
+          </h3>
+        </div>
+        <h1 class="residential">Oriental Rug Cleaning</h1>
+        <div id="residentialDiv">
+          <div class="resImg1">
+            <img class="resImg2" src="assets/images/rug.jpg">
+          </div>
+          <div class="resImg3">
+            <h3>
+                Area rugs and carpets differ greatly in their construction, dyeing methods and fiber content … and we understand these differences assuring a safe and thorough cleaning of your specialty rugs. Our expertise allows us to employ special methods, equipment and procedures to assure a safe and thorough cleaning of your rug. Call us today for a quote.
+            </h3>
+          </div>
+        </div>
+        <h1 class="residential">Commercial Service</h1>
+        <div id="residentialDiv">
+          <div class="resImg1">
+            <img class="resImg2" src="assets/images/commercial.jpg">
+          </div>
+          <div class="resImg3">
+            <h3>
+                Do you have high standards for your keeping your professional offices and buildings clean? Then Mr.Clean is the company for you. For quality assurance there is no better choice for your commercial cleaning needs in Boise. For decades we've been maintaining area offices, buildings, and apartments. Call Mr.Clean, get a quote, and get us on the job!
+            </h3>
+          </div>
+        </div>
+        <h1 class="residential">Product</h1>
+        <div id="residentialDiv">
+          <div class="resImg1">
+            <img class="resImg2" src="assets/images/procyon1.png">
+          </div>
+          <div class="resImg3">
+            <h3>
+              Procyon is a soap free / detergent free Green Sealed Certified, Odor free, Non-Toxic, hypo-allergenic carpet and tile cleaning agent.
+              Provyon evolved with the times to modernize your way of cleaning to safe guard and protect human health as well as the environment you live and work in by bringing you Asthma & Allergy; Indoor Air Quality (IAQ) certified and approved cleaning products. Our carpet cleaning products are tested and certified by Du-Pont, Monsanto, Allied Fiber, and Collins & Aikman Tandus Power Bond, The Carpet & Rug Institute and Wool Safe.
+            </h3>
+          </div>
+        </div>
+      </div>      

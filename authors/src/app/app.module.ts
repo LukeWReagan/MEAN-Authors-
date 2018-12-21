@@ -9,13 +9,15 @@ import { GammaComponent } from './gamma/gamma.component';
 import { DeltaComponent } from './delta/delta.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { HoursComponent } from './hours/hours.component';
 @NgModule({
   declarations: [
     AppComponent,
     AlphaComponent,
     BetaComponent,
     GammaComponent,
-    DeltaComponent
+    DeltaComponent,
+    HoursComponent
 
   ],
   imports: [

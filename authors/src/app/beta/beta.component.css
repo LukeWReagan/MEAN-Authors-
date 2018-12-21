@@ -1,0 +1,67 @@
+#container{
+    display: inline-block;
+}
+.teamPic{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    height: 600px;
+    width: 500px;
+    border-radius: 25px;
+}
+.origin{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+.goals{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+.mission{
+    display: inline-block;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
+}
+.about{
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+    
+}
+#pic{
+    display: inline-block;
+}
+#tMission{
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    width: 600px;
+}H3{
+    color: black;
+}
+H1{
+    font-weight: bold;
+    font-family: Ubuntu, sans-serif;
+    color: black;
+}
+#container{
+    height: 900px;
+    width: 100%;
+}

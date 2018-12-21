@@ -9,7 +9,9 @@ const routes: Routes = [
   { path: 'alpha',component: AlphaComponent },
   { path: 'beta',component: BetaComponent },
   { path: 'gamma',component: GammaComponent },
-  { path: 'delta',component: DeltaComponent }
+  { path: 'delta',component: DeltaComponent },
+  { path: '',component: AlphaComponent},
+  
 
 ];
 
