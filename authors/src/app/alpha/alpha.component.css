@@ -35,7 +35,8 @@
     -ms-transition: background-color 0.5s ease-in-out;
     -o-transition: background-color 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
-    background-color: rgb(0,0,0,0.5)
+    background-color: rgb(0,0,0,0.5);
+    text-align: center;
 }
 a:hover { 
     color: #838e66;
@@ -52,9 +53,9 @@ a:hover {
     letter-spacing: .3vw;
 }
 #routes{
+    text-align: center;
     float: right;
     margin-right: 4vw;
-    
 }
 .vault{
     margin-top: 2.2vw;
@@ -122,7 +123,7 @@ a:hover {
 
 }
 #parallax2 { 
-    background-image: url("images/parallax2.jpeg");
+    background-image: url("images/DJI_0080.jpg");
     height: 30vw; 
     background-attachment: fixed;
     background-position: top;
@@ -131,7 +132,7 @@ a:hover {
     text-align: center;
 }
 #parallax3 { 
-    background-image: url("images/p.jpg");
+    background-image: url("images/IMG_6215.jpg");
     height: 30vw; 
     background-attachment: fixed;
     background-position: top;
