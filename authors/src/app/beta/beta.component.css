@@ -1,67 +1,205 @@
-#container{
-    display: inline-block;
-}
-.teamPic{
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 100px;
-    height: 600px;
-    width: 500px;
+.topBox{
     border-radius: 25px;
-}
-.origin{
+    z-index: 3;
+    position: sticky;
+    padding: 5px;
+    width: 82vw;
+    top: 5%;
     display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
+    height: 6vw;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    background-color: rgb(0,0,0,0.5);
 }
-.goals{
+#grey7{
+    height: 50vw;
+    width: 8vw;
+    float:left;
     display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
+    background-color:#666666;
+    background-size:16px 16px;
 }
-.mission{
+#grey8{
+    height: 50vw;
+    width: 8vw;
+    float: right;
     display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
+    background-color:#666666;
+    background-size:16px 16px; 
 }
-.about{
-    text-align: center;
-    font-size: 3.5em;
-    font-weight: bold;
-    font-family: Ubuntu, sans-serif;
-    color: black;
+#name{
+    margin-left: 10vw;
+    display: inline-block;
+    float: left;
+}
+#routes{
+    float: right;
+    margin-right: 4vw;
     
 }
-#pic{
-    display: inline-block;
-}
-#tMission{
-    display: inline-block;
-    float: right;
-    margin-right: 40px;
-    margin-top: 20px;
-    width: 600px;
-}H3{
-    color: black;
-}
-H1{
-    font-weight: bold;
+.vault{
+    margin-top: 2.2vw;
     font-family: Ubuntu, sans-serif;
-    color: black;
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .3vw;
+    float: left;
 }
-#container{
-    height: 900px;
-    width: 100%;
+.route{
+    display: inline-block;
+    margin-top: 2.2vw;
+    margin-right: 7vw;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .3vw;
+}
+a:hover { 
+    color: #838e66;
+  }
+#about1{
+    background-image: url("images/coffeeShare.jpg");
+    height: 50vw; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 85%;
+    text-align: center;
+}
+#v2{
+    display:inline-block;
+    margin-top: 20vw;
+    z-index: 2;
+}
+.story{
+    font-size: 3.4vw;
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+}
+#second{
+    height: 70vw;
+    text-align: center;
+}
+#third{
+    text-align: center;
+    height: 85vw;
+}
+#fourth{
+    text-align: center;
+    height: 110vw;
+}
+.paragraph{
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-left: 3vw;
+    display: inline-block;
+    letter-spacing: .1em;
+    text-align: justify;
+}
+.paragraph2{
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-left: 2vw;
+    display: inline-block;
+    letter-spacing: .1em;
+    text-align: justify;
+}
+.paragraph4{
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    margin-top: 5vw;
+    margin-left: .5vw;
+    display: inline-block;
+    letter-spacing: .1em;
+    text-align: justify;
+}
+#grey3{
+    height: 70vw;
+    width: 8vw;
+    float: left;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+#grey4{
+    height: 70vw;
+    width: 8vw;
+    float: right;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+#grey5{
+    height: 85vw;
+    width: 8vw;
+    float: left;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+#grey6{
+    height: 85vw;
+    width: 8vw;
+    float: right;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+#grey9{
+    height: 110vw;
+    width: 8vw;
+    float: left;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+#grey10{
+    height: 110vw;
+    width: 8vw;
+    float: right;
+    display: inline-block;
+    background-color: #666666;
+    background-size:16px 16px;
+}
+.old{
+    width: 60vw;
+    margin-top: 4vw;
+}
+.old2{
+    width: 60vw;
+    height: 35vw;
+    margin-top: 4vw;
+}
+.vwheel{
+    width: 50vw;
+    height: 50vw;
+    margin-top: 4vw;
+}
+#footer{
+    height: 10vw;
+    background-color:#666666;
+    background-size:16px 16px;
+    text-align: center;
+}
+.reviews{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 3vw;
+    margin-top: 4vw;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    letter-spacing: .1em;
 }

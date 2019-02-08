@@ -1,98 +1,178 @@
-.cInfo{
+.topBox{
+    border-radius: 25px;
+    z-index: 3;
+    position: sticky;
+    padding: 5px;
+    width: 82vw;
+    top: 5%;
+    display: inline-block;
+    height: 6vw;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    background-color: rgb(0,0,0,0.5);
+}
+#about1{
+    background-image: url("images/partners.jpg");
+    height: 50vw; 
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 85%;
     text-align: center;
-    font-size: 3.5em;
-    font-weight: bold;
+}
+#grey7{
+    height: 50vw;
+    width: 8vw;
+    float:left;
+    display: inline-block;
+    background-color:#666666;
+    background-size:16px 16px;
+}
+#grey8{
+    height: 50vw;
+    width: 8vw;
+    float: right;
+    display: inline-block;
+    background-color:#666666;
+    background-size:16px 16px; 
+}
+#name{
+    margin-left: 10vw;
+    display: inline-block;
+    float: left;
+}
+.vault{
+    margin-top: 2.2vw;
     font-family: Ubuntu, sans-serif;
-    color: black;
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .3vw;
+    float: left;
 }
-.cPic{
-    width: 150px;
-    height: 100px;
+#routes{
+    float: right;
+    margin-right: 4vw;
+    
 }
-.lPic{
-    width: 150px;
-    height: 100px; 
-}
-.tPic{
-    width: 150px;
-    height: 100px;
-    margin-left: 130px;
-}
-#contact{
-   text-align: center;
-   height: 900px;
-   width: 100%;
-}
-h3{
-    margin-left: 70px;
-}
-#info{
+.route{
     display: inline-block;
-    width: 100%;
-    text-align: center;
+    margin-top: 2.2vw;
+    margin-right: 7vw;
+    font-family: Ubuntu, sans-serif;
+    color: white;
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: .3vw;
 }
-.address{
-    display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
-}
-#icons{
-    display: inline-block;
-    width: 800px;
-    height: 500px;
-    margin-top: 90px;
-}
-img{
-    margin-left: 100px;
-}
-.hours{
-    display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
-}
-.number{
-    display: inline-block;
-    font-family: brevia;
-    font-weight: 450;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    line-height: 1.65em;
-    text-transform: none;
-}
-#add{
+#v2{
     display:inline-block;
-    margin-top: 10px;
-    text-align: center;
-    width: 870px;
+    margin-top: 15.3vw;
+    z-index: 2;
 }
-#num{
-    display: inline-block;
-    text-align: center;
-    margin-left: 160px;
-
+.story{
+    font-size: 3.4vw;
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 400;
+    color: white;
 }
-#side{
-    margin-top: 50px;
-    margin-left: 50px;
+#second{
+    height: 80vw;
+    text-align: center;
+}
+#grey3{
+    height: 80vw;
+    width: 8vw;
     float: left;
     display: inline-block;
-    height: 350px;
-    width: 400px;
-    border-radius: 25px;
+    background-color: #666666;
+    background-size:16px 16px;
 }
-#h{
+#grey4{
+    height: 80vw;
+    width: 8vw;
+    float: right;
     display: inline-block;
-    margin-top: 30px;
+    background-color: #666666;
+    background-size:16px 16px;
 }
-#container{
-    height: 650px;
-    width: 100%;
+#doma{
+    height: 30vw;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3vw;
+}
+.doma{
+    width: 25vw;
+    height: 20vw;
+}
+.domatxt{
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    display: inline-block;
+    letter-spacing: .1em;
+    text-align: justify;
+}
+.brew{
+    color: black;
+    font-size: 4vw;
+    font-weight: 300;
+    font-family: Source Sans Pro,sans-serif;
+    letter-spacing: .1em;
+}
+.steep{
+    color: black;
+    margin-top: 6vw;
+    font-size: 4vw;
+    font-weight: 300;
+    font-family: Source Sans Pro,sans-serif;
+    letter-spacing: .1em;
+}
+#steep{
+    height: 30vw;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3vw;
+}
+.steeptxt{
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    display: inline-block;
+    letter-spacing: .1em;
+    text-align: justify;
+    float: left;
+}
+.inn{
+    float: left;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    height: 12vw;
+    width: 25vw;
+}
+#footer{
+    height: 10vw;
+    background-color:#666666;
+    background-size:16px 16px;
+    text-align: center;
+}
+.reviews{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 3vw;
+    margin-top: 4vw;
+    font-weight: 300;
+    font-family: "Source Sans Pro",sans-serif;
+    letter-spacing: .1em;
 }
